@@ -1,0 +1,21 @@
+.primary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem 2rem;
+
+  background-color: $primary-color;
+  color: white;
+
+  border-radius: 999px;
+
+  transition: $transition;
+
+  font-weight: 500;
+
+  &:hover {
+    background-color: $secondary-color;
+    transform: translateY(-2px);
+  }
+}
