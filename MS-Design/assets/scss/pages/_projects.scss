@@ -1,1 +1,72 @@
 .projects-section { padding-top: 8rem; }
+
+.projects-page {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.projects-heading {
+  margin-bottom: 4rem;
+}
+
+.case-studies {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.case-study {
+
+  &-img {
+    border-radius: 4px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &-title {
+    font-family: $font-heading;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $primary-color;
+    margin: 0.75rem 0 1.5rem;
+  }
+
+  &-block {
+    margin-bottom: 1.25rem;
+
+    h3 {
+      font-family: $font-body;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: $secondary-color;
+      margin-bottom: 0.4rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: $text-color;
+      margin: 0;
+    }
+  }
+
+  &-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+
+    span {
+      font-family: $font-body;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: $primary-color;
+      border: 1px solid $primary-color;
+      border-radius: 2px;
+      padding: 0.25rem 0.65rem;
+      letter-spacing: 0.05em;
+    }
+  }
+}
