@@ -1,5 +1,10 @@
 .about-section { padding-top: 8rem; }
 
+.about-image {
+  border-radius: 16px;
+  box-shadow: $shadow-image;
+}
+
 .about-location {
   display: inline-flex;
   align-items: center;

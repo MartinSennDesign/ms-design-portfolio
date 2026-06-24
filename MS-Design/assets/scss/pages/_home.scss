@@ -33,6 +33,7 @@
   object-fit: cover;
   min-height: 500px;
   border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: $shadow-image;
 }
 
 .projects-preview {
@@ -42,6 +43,7 @@
 .project-card img {
   border-radius: 18px;
   margin-bottom: 1.5rem;
+  box-shadow: $shadow-image;
 }
 
 .project-card h3 {

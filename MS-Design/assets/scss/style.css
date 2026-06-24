@@ -234,6 +234,7 @@ header {
   object-fit: cover;
   min-height: 500px;
   border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(29, 53, 87, 0.08), 0 16px 48px rgba(29, 53, 87, 0.14);
 }
 
 .projects-preview {
@@ -243,6 +244,7 @@ header {
 .project-card img {
   border-radius: 18px;
   margin-bottom: 1.5rem;
+  box-shadow: 0 4px 16px rgba(29, 53, 87, 0.08), 0 16px 48px rgba(29, 53, 87, 0.14);
 }
 
 .project-card h3 {
@@ -319,6 +321,11 @@ header {
   padding-top: 8rem;
 }
 
+.about-image {
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(29, 53, 87, 0.08), 0 16px 48px rgba(29, 53, 87, 0.14);
+}
+
 .about-location {
   display: inline-flex;
   align-items: center;
@@ -356,6 +363,7 @@ header {
   border-radius: 4px;
   width: 100%;
   object-fit: cover;
+  box-shadow: 0 4px 16px rgba(29, 53, 87, 0.08), 0 16px 48px rgba(29, 53, 87, 0.14);
 }
 .case-study-title {
   font-family: "Playfair Display", serif;
