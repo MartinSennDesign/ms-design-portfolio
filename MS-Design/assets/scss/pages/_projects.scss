@@ -1,5 +1,101 @@
 .projects-section { padding-top: 8rem; }
 
+.case-study-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+  font-family: $font-body;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: $primary-color;
+  text-decoration: none;
+  transition: $transition;
+
+  i { transition: $transition; }
+
+  &:hover {
+    color: $secondary-color;
+    gap: 0.65rem;
+  }
+}
+
+// páginas de detalle
+.project-detail-hero {
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: $font-body;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: $secondary-color;
+  text-decoration: none;
+  margin-bottom: 2.5rem;
+  transition: $transition;
+
+  &:hover {
+    color: $primary-color;
+    gap: 0.65rem;
+  }
+}
+
+.project-detail-title {
+  font-family: $font-heading;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 700;
+  color: $primary-color;
+  margin: 0.75rem 0 1rem;
+  line-height: 1.05;
+}
+
+.project-detail-subtitle {
+  font-size: 1.1rem;
+  max-width: 600px;
+  color: rgba(17, 17, 17, 0.7);
+  margin-bottom: 0;
+}
+
+.project-detail-cover {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 3rem;
+  box-shadow: $shadow-image;
+}
+
+.project-detail-content {
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+
+.project-gallery {
+  padding-bottom: 2rem;
+}
+
+.gallery-img {
+  border-radius: 8px;
+  box-shadow: $shadow-image;
+  width: 100%;
+}
+
+.project-detail-actions {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  display: flex;
+  align-items: center;
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+}
+
 .projects-page {
   padding-top: 8rem;
   padding-bottom: 6rem;

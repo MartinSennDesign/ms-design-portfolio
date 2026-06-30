@@ -344,6 +344,99 @@ header {
   padding-top: 8rem;
 }
 
+.case-study-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #1d3557;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.case-study-link i {
+  transition: 0.3s ease;
+}
+.case-study-link:hover {
+  color: #457b9d;
+  gap: 0.65rem;
+}
+
+.project-detail-hero {
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #457b9d;
+  text-decoration: none;
+  margin-bottom: 2.5rem;
+  transition: 0.3s ease;
+}
+.back-link:hover {
+  color: #1d3557;
+  gap: 0.65rem;
+}
+
+.project-detail-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 700;
+  color: #1d3557;
+  margin: 0.75rem 0 1rem;
+  line-height: 1.05;
+}
+
+.project-detail-subtitle {
+  font-size: 1.1rem;
+  max-width: 600px;
+  color: rgba(17, 17, 17, 0.7);
+  margin-bottom: 0;
+}
+
+.project-detail-cover {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 3rem;
+  box-shadow: 0 4px 16px rgba(29, 53, 87, 0.08), 0 16px 48px rgba(29, 53, 87, 0.14);
+}
+
+.project-detail-content {
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+
+.project-gallery {
+  padding-bottom: 2rem;
+}
+
+.gallery-img {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(29, 53, 87, 0.08), 0 16px 48px rgba(29, 53, 87, 0.14);
+  width: 100%;
+}
+
+.project-detail-actions {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  display: flex;
+  align-items: center;
+}
+.project-detail-actions .container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 .projects-page {
   padding-top: 8rem;
   padding-bottom: 6rem;
@@ -413,4 +506,49 @@ header {
 
 .contact-section {
   padding-top: 8rem;
+}
+
+.contact-page {
+  padding-top: 10rem;
+}
+
+.contact-info {
+  max-width: 680px;
+}
+
+.contact-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(17, 17, 17, 0.75);
+  margin-bottom: 3rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #1d3557;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.contact-item i {
+  font-size: 1.15rem;
+  color: #457b9d;
+}
+.contact-item .contact-flag {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+.contact-item:hover {
+  color: #457b9d;
+  gap: 1rem;
 }
